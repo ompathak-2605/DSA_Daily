@@ -1,2 +1,2 @@
-# Daily_DSA
-This repo contains DSA solutions in java language
+# DSA Daily
+This repository contains my daily DSA practice.

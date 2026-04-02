@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class SC10 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the character: ");
         char c = in.next().charAt(0);

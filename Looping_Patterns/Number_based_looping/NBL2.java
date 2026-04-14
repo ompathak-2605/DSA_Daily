@@ -1,5 +1,5 @@
 // Print the reverse of a given number.
-public class BLN2 {
+public class NBL2 {
     public static void main(String[] args) {
         int num = 12345;
         int num2 =0;

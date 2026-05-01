@@ -1,13 +1,20 @@
 // Find LCM of two numbers using loops.
 public class MLP5 {
     static int LCM(int a,int b){
-        int p = 1;
-        for (int i = a/2; i <=2; i--) {
-            if(a%i==0){
-                p=i;
+        int max = Math.max(a, b);
+        int lcm = max;
+        while(true){
+            if(lcm%a==0 && lcm%b==0){
+                return lcm;
             }
+            lcm+=max;
         }
-        return -1;
     }
-    
+
+     public static void main(String[] args){
+        int a = 10;
+        int b = 15;
+        System.out.println(LCM(a,b));
+
+     }
 }

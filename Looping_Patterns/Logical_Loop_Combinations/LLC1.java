@@ -7,12 +7,13 @@ public class LLC1 {
         for (int i = 1; i <=100; i++) {
             temp=i;
             while(temp!=0){
-                sum = sum + i%10;
+                sum = sum + (temp%10);
                 temp = temp/10;
             }
             if(sum%2==0){
                 System.out.println(i);
             }
+            sum = 0;
         }
     }
 }

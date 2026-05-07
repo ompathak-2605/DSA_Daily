@@ -2,19 +2,21 @@
 public class LLC3 {
     public static void main(String[] args) {
         System.out.println("These are the pelendrom between 1 and 500");
-        int temp ;
-        int sum ;
-        for (int i = 1; i <=500; i++) {
-            temp = i;
-            sum = 0;
-            while(temp!=0){
-                sum = sum + (temp%10)*(temp%10);
-                temp = temp/10;
-            }
-            if(sum==i){
-                System.out.println(i);
-            }
+        for (int i = 1; i <=9; i++) {
+            System.out.println(i);
+         }
+         for (int j = 1; j <=9; j++) {
+             System.out.println(11*j);
+         }
 
-        }
+         for (int k = 1; k <=4; k++) {
+
+             for (int l = 0; l < 9; l++) {
+                 int digit = (100*k)+(10*l)+k;
+                 if(digit<500){
+                    System.out.println(digit);
+                 }
+             }
+         }
     }
 }

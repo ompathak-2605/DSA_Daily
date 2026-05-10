@@ -1,0 +1,16 @@
+
+import java.util.Scanner;
+
+// Print a pattern where each row i prints i*i. 
+public class LLC7 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for ( int i = 1; i <=n; i++) {
+            for (int j = 1; j <=i*i; j++) {
+                System.out.print(i +" ");
+            }
+            System.out.println();
+        }
+    }
+}

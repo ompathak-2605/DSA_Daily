@@ -1,3 +1,5 @@
+package recursion.foundation_of_recursion;
+
 
 // Print only even numbers from 1 to n recursively. 
 import java.util.Scanner;

@@ -2,7 +2,7 @@ package recursion.foundation_of_recursion;
 // Print only odd numbers from 1 to n recursively. 
 import java.util.Scanner;
 
-public class FOR3 {
+public class FOR4 {
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
          System.out.println("Enter the upper limit");

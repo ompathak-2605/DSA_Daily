@@ -1,4 +1,4 @@
-// Print Fibonacci series up to n terms recursively. 
+// Print Fibonacci series up to n terms recursively.  
 public class FOR9 {
     public static void main(String[] args) {
         int n = 10;
